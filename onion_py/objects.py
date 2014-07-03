@@ -115,7 +115,7 @@ class RelayDetails:
     self.consensus_weight = g('consensus_weight')
     self.host_name = g('host_name')
     self.last_restarted = g('last_restarted')
-    self.bandwidth = (g('bandwidth_rate'),g('bandwidth_burst'),g('bandwidth_observed'),g('bandwidth_advertised'))
+    self.bandwidth = (g('bandwidth_rate'),g('bandwidth_burst'),g('observed_bandwidth'),g('advertised_bandwidth'))
     self.exit_policy = g('exit_policy')
     self.exit_policy_summary = g('exit_summary_policy')
     self.exit_policy_v6_summary = g('exit_policy_v6_policy')
